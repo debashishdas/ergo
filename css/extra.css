@@ -103,10 +103,17 @@ footer .email a:hover{color:#596164;}
 .copyright:before {content:"";display: inline-block;height: 1px;width: 100%;margin: 0;background: #0042bb;position: absolute;}
 
 /* ============= service ============ */
+.emodel p {
+    font-size: 14px;
+    text-align: center;
+    max-width: 80rem;
+    margin: 10px auto;
+    line-height: 20px;
+}
 .vdesign{width:100%;max-width:80rem;margin:80px auto 0;}
 .vdesign span {position: absolute;left: 50%;width: 2px;height: 100%;background: rgb(7,0,121);
 	background: linear-gradient(0deg, rgba(7,0,121,1) 0%, rgba(18,79,142,1) 19%, rgba(255,0,0,1) 50%, rgba(18,79,142,1) 77%, rgba(0,19,154,1) 100%);}
-.vdesign p{margin:0;font-size:14px;font-weight:600;padding: 0 15px;}
+.vdesign p{margin:0;font-size:14px;font-weight:600;padding: 0 15px;text-align:left;}
 .vdesign h2{text-align:center;margin-bottom: 60px;}
 .vdesign h3{margin:0 0 20px; font-size:16px;font-family:var(--header_font);letter-spacing: 2px;    color: #fff;
     padding: 10px;
