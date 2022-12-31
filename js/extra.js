@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('.show-menu-btn').click(function() {
 		$('header').toggleClass('mobMenu');
-		$("body").css('overflow', 'hidden');
+		//$("body").css('overflow', 'hidden');
 	});
 	
 	//Slider Start
